@@ -1,0 +1,371 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		111ED30616B2442000937EBB /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 111ED30516B2442000937EBB /* Reachability.m */; };
+		111ED30B16B245AF00937EBB /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 111ED30A16B245AE00937EBB /* SystemConfiguration.framework */; };
+		111ED31216B25F0400937EBB /* AsyncSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 111ED31116B25F0400937EBB /* AsyncSocket.m */; };
+		111ED31416B260EE00937EBB /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 111ED31316B260EE00937EBB /* CFNetwork.framework */; };
+		113613EF16E86D0D00F57D6C /* SDWebImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 113613EE16E86D0D00F57D6C /* SDWebImage.framework */; };
+		113613F116E86D1E00F57D6C /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 113613F016E86D1E00F57D6C /* ImageIO.framework */; };
+		1157170C16B5021400E14AF7 /* NetworkInfoiOSLibrary.m in Sources */ = {isa = PBXBuildFile; fileRef = 1157170B16B5021400E14AF7 /* NetworkInfoiOSLibrary.m */; };
+		11D0DA5816B243AE00D8DC25 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 11D0DA5716B243AE00D8DC25 /* UIKit.framework */; };
+		11D0DA5A16B243AE00D8DC25 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 11D0DA5916B243AE00D8DC25 /* Foundation.framework */; };
+		11D0DA5C16B243AE00D8DC25 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 11D0DA5B16B243AE00D8DC25 /* CoreGraphics.framework */; };
+		11D0DA6216B243AE00D8DC25 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 11D0DA6016B243AE00D8DC25 /* InfoPlist.strings */; };
+		11D0DA6416B243AE00D8DC25 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 11D0DA6316B243AE00D8DC25 /* main.m */; };
+		11D0DA6816B243AE00D8DC25 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 11D0DA6716B243AE00D8DC25 /* AppDelegate.m */; };
+		11D0DA6A16B243AE00D8DC25 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 11D0DA6916B243AE00D8DC25 /* Default.png */; };
+		11D0DA6C16B243AE00D8DC25 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 11D0DA6B16B243AE00D8DC25 /* Default@2x.png */; };
+		11D0DA6E16B243AE00D8DC25 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 11D0DA6D16B243AE00D8DC25 /* Default-568h@2x.png */; };
+		11D0DA7116B243AE00D8DC25 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 11D0DA7016B243AE00D8DC25 /* ViewController.m */; };
+		11D0DA7416B243AE00D8DC25 /* ViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 11D0DA7216B243AE00D8DC25 /* ViewController_iPhone.xib */; };
+		11D0DA7716B243AE00D8DC25 /* ViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 11D0DA7516B243AE00D8DC25 /* ViewController_iPad.xib */; };
+		11F3BE5716BE8CFE0037B214 /* PortChecker.m in Sources */ = {isa = PBXBuildFile; fileRef = 11F3BE5616BE8CFE0037B214 /* PortChecker.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		111ED30416B2442000937EBB /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Reachability.h; path = TestReachability/Reachability.h; sourceTree = "<group>"; };
+		111ED30516B2442000937EBB /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Reachability.m; path = TestReachability/Reachability.m; sourceTree = "<group>"; };
+		111ED30A16B245AE00937EBB /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		111ED31016B25F0400937EBB /* AsyncSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AsyncSocket.h; path = TestReachability/AsyncSocket.h; sourceTree = "<group>"; };
+		111ED31116B25F0400937EBB /* AsyncSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AsyncSocket.m; path = TestReachability/AsyncSocket.m; sourceTree = "<group>"; };
+		111ED31316B260EE00937EBB /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		113613EE16E86D0D00F57D6C /* SDWebImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SDWebImage.framework; sourceTree = "<group>"; };
+		113613F016E86D1E00F57D6C /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = System/Library/Frameworks/ImageIO.framework; sourceTree = SDKROOT; };
+		1157170A16B5021400E14AF7 /* NetworkInfoiOSLibrary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NetworkInfoiOSLibrary.h; path = TestReachability/NetworkInfoiOSLibrary.h; sourceTree = "<group>"; };
+		1157170B16B5021400E14AF7 /* NetworkInfoiOSLibrary.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NetworkInfoiOSLibrary.m; path = TestReachability/NetworkInfoiOSLibrary.m; sourceTree = "<group>"; };
+		1157170E16B5029100E14AF7 /* FlashRuntimeExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FlashRuntimeExtensions.h; path = TestReachability/FlashRuntimeExtensions.h; sourceTree = "<group>"; };
+		11D0DA5316B243AE00D8DC25 /* TestReachability.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestReachability.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		11D0DA5716B243AE00D8DC25 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		11D0DA5916B243AE00D8DC25 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		11D0DA5B16B243AE00D8DC25 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		11D0DA5F16B243AE00D8DC25 /* TestReachability-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TestReachability-Info.plist"; sourceTree = "<group>"; };
+		11D0DA6116B243AE00D8DC25 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		11D0DA6316B243AE00D8DC25 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		11D0DA6516B243AE00D8DC25 /* TestReachability-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TestReachability-Prefix.pch"; sourceTree = "<group>"; };
+		11D0DA6616B243AE00D8DC25 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		11D0DA6716B243AE00D8DC25 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		11D0DA6916B243AE00D8DC25 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		11D0DA6B16B243AE00D8DC25 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		11D0DA6D16B243AE00D8DC25 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		11D0DA6F16B243AE00D8DC25 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		11D0DA7016B243AE00D8DC25 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		11D0DA7316B243AE00D8DC25 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPhone.xib; sourceTree = "<group>"; };
+		11D0DA7616B243AE00D8DC25 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPad.xib; sourceTree = "<group>"; };
+		11F3BE5516BE8CFE0037B214 /* PortChecker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PortChecker.h; path = TestReachability/PortChecker.h; sourceTree = "<group>"; };
+		11F3BE5616BE8CFE0037B214 /* PortChecker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PortChecker.m; path = TestReachability/PortChecker.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		11D0DA5016B243AE00D8DC25 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				113613F116E86D1E00F57D6C /* ImageIO.framework in Frameworks */,
+				111ED31416B260EE00937EBB /* CFNetwork.framework in Frameworks */,
+				111ED30B16B245AF00937EBB /* SystemConfiguration.framework in Frameworks */,
+				11D0DA5816B243AE00D8DC25 /* UIKit.framework in Frameworks */,
+				11D0DA5A16B243AE00D8DC25 /* Foundation.framework in Frameworks */,
+				11D0DA5C16B243AE00D8DC25 /* CoreGraphics.framework in Frameworks */,
+				113613EF16E86D0D00F57D6C /* SDWebImage.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		111ED30216B2440500937EBB /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				11F3BE5516BE8CFE0037B214 /* PortChecker.h */,
+				11F3BE5616BE8CFE0037B214 /* PortChecker.m */,
+				1157170E16B5029100E14AF7 /* FlashRuntimeExtensions.h */,
+				1157170A16B5021400E14AF7 /* NetworkInfoiOSLibrary.h */,
+				1157170B16B5021400E14AF7 /* NetworkInfoiOSLibrary.m */,
+				111ED31016B25F0400937EBB /* AsyncSocket.h */,
+				111ED31116B25F0400937EBB /* AsyncSocket.m */,
+				111ED30416B2442000937EBB /* Reachability.h */,
+				111ED30516B2442000937EBB /* Reachability.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		11D0DA4816B243AE00D8DC25 = {
+			isa = PBXGroup;
+			children = (
+				11D0DA5D16B243AE00D8DC25 /* TestReachability */,
+				111ED30216B2440500937EBB /* Other Sources */,
+				11D0DA5616B243AE00D8DC25 /* Frameworks */,
+				11D0DA5416B243AE00D8DC25 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		11D0DA5416B243AE00D8DC25 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				11D0DA5316B243AE00D8DC25 /* TestReachability.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		11D0DA5616B243AE00D8DC25 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				113613F016E86D1E00F57D6C /* ImageIO.framework */,
+				113613EE16E86D0D00F57D6C /* SDWebImage.framework */,
+				111ED31316B260EE00937EBB /* CFNetwork.framework */,
+				111ED30A16B245AE00937EBB /* SystemConfiguration.framework */,
+				11D0DA5716B243AE00D8DC25 /* UIKit.framework */,
+				11D0DA5916B243AE00D8DC25 /* Foundation.framework */,
+				11D0DA5B16B243AE00D8DC25 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		11D0DA5D16B243AE00D8DC25 /* TestReachability */ = {
+			isa = PBXGroup;
+			children = (
+				11D0DA6616B243AE00D8DC25 /* AppDelegate.h */,
+				11D0DA6716B243AE00D8DC25 /* AppDelegate.m */,
+				11D0DA6F16B243AE00D8DC25 /* ViewController.h */,
+				11D0DA7016B243AE00D8DC25 /* ViewController.m */,
+				11D0DA7216B243AE00D8DC25 /* ViewController_iPhone.xib */,
+				11D0DA7516B243AE00D8DC25 /* ViewController_iPad.xib */,
+				11D0DA5E16B243AE00D8DC25 /* Supporting Files */,
+			);
+			path = TestReachability;
+			sourceTree = "<group>";
+		};
+		11D0DA5E16B243AE00D8DC25 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				11D0DA5F16B243AE00D8DC25 /* TestReachability-Info.plist */,
+				11D0DA6016B243AE00D8DC25 /* InfoPlist.strings */,
+				11D0DA6316B243AE00D8DC25 /* main.m */,
+				11D0DA6516B243AE00D8DC25 /* TestReachability-Prefix.pch */,
+				11D0DA6916B243AE00D8DC25 /* Default.png */,
+				11D0DA6B16B243AE00D8DC25 /* Default@2x.png */,
+				11D0DA6D16B243AE00D8DC25 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		11D0DA5216B243AE00D8DC25 /* TestReachability */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 11D0DA7A16B243AE00D8DC25 /* Build configuration list for PBXNativeTarget "TestReachability" */;
+			buildPhases = (
+				11D0DA4F16B243AE00D8DC25 /* Sources */,
+				11D0DA5016B243AE00D8DC25 /* Frameworks */,
+				11D0DA5116B243AE00D8DC25 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TestReachability;
+			productName = TestReachability;
+			productReference = 11D0DA5316B243AE00D8DC25 /* TestReachability.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		11D0DA4A16B243AE00D8DC25 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = sewonist;
+			};
+			buildConfigurationList = 11D0DA4D16B243AE00D8DC25 /* Build configuration list for PBXProject "TestReachability" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 11D0DA4816B243AE00D8DC25;
+			productRefGroup = 11D0DA5416B243AE00D8DC25 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				11D0DA5216B243AE00D8DC25 /* TestReachability */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		11D0DA5116B243AE00D8DC25 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11D0DA6216B243AE00D8DC25 /* InfoPlist.strings in Resources */,
+				11D0DA6A16B243AE00D8DC25 /* Default.png in Resources */,
+				11D0DA6C16B243AE00D8DC25 /* Default@2x.png in Resources */,
+				11D0DA6E16B243AE00D8DC25 /* Default-568h@2x.png in Resources */,
+				11D0DA7416B243AE00D8DC25 /* ViewController_iPhone.xib in Resources */,
+				11D0DA7716B243AE00D8DC25 /* ViewController_iPad.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		11D0DA4F16B243AE00D8DC25 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11D0DA6416B243AE00D8DC25 /* main.m in Sources */,
+				11D0DA6816B243AE00D8DC25 /* AppDelegate.m in Sources */,
+				11D0DA7116B243AE00D8DC25 /* ViewController.m in Sources */,
+				111ED30616B2442000937EBB /* Reachability.m in Sources */,
+				111ED31216B25F0400937EBB /* AsyncSocket.m in Sources */,
+				1157170C16B5021400E14AF7 /* NetworkInfoiOSLibrary.m in Sources */,
+				11F3BE5716BE8CFE0037B214 /* PortChecker.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		11D0DA6016B243AE00D8DC25 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				11D0DA6116B243AE00D8DC25 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		11D0DA7216B243AE00D8DC25 /* ViewController_iPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				11D0DA7316B243AE00D8DC25 /* en */,
+			);
+			name = ViewController_iPhone.xib;
+			sourceTree = "<group>";
+		};
+		11D0DA7516B243AE00D8DC25 /* ViewController_iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				11D0DA7616B243AE00D8DC25 /* en */,
+			);
+			name = ViewController_iPad.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		11D0DA7816B243AE00D8DC25 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		11D0DA7916B243AE00D8DC25 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		11D0DA7B16B243AE00D8DC25 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TestReachability/TestReachability-Prefix.pch";
+				INFOPLIST_FILE = "TestReachability/TestReachability-Info.plist";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		11D0DA7C16B243AE00D8DC25 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TestReachability/TestReachability-Prefix.pch";
+				INFOPLIST_FILE = "TestReachability/TestReachability-Info.plist";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		11D0DA4D16B243AE00D8DC25 /* Build configuration list for PBXProject "TestReachability" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				11D0DA7816B243AE00D8DC25 /* Debug */,
+				11D0DA7916B243AE00D8DC25 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		11D0DA7A16B243AE00D8DC25 /* Build configuration list for PBXNativeTarget "TestReachability" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				11D0DA7B16B243AE00D8DC25 /* Debug */,
+				11D0DA7C16B243AE00D8DC25 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 11D0DA4A16B243AE00D8DC25 /* Project object */;
+}

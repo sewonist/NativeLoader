@@ -1,0 +1,261 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		113613CC16E860C200F57D6C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 113613CB16E860C200F57D6C /* Foundation.framework */; };
+		113613D116E860C200F57D6C /* NativeLoader.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 113613D016E860C200F57D6C /* NativeLoader.h */; };
+		113613D316E860C200F57D6C /* NativeLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = 113613D216E860C200F57D6C /* NativeLoader.m */; };
+		113613E416E86B3300F57D6C /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 113613E316E86B3200F57D6C /* ImageIO.framework */; };
+		113613F916E87CAA00F57D6C /* SDWebImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 113613F816E87CAA00F57D6C /* SDWebImage.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		113613C616E860C200F57D6C /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/${PRODUCT_NAME}";
+			dstSubfolderSpec = 16;
+			files = (
+				113613D116E860C200F57D6C /* NativeLoader.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		113613C816E860C200F57D6C /* libNativeLoader.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libNativeLoader.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		113613CB16E860C200F57D6C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		113613CF16E860C200F57D6C /* NativeLoader-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NativeLoader-Prefix.pch"; sourceTree = "<group>"; };
+		113613D016E860C200F57D6C /* NativeLoader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NativeLoader.h; sourceTree = "<group>"; };
+		113613D216E860C200F57D6C /* NativeLoader.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NativeLoader.m; sourceTree = "<group>"; };
+		113613E316E86B3200F57D6C /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = System/Library/Frameworks/ImageIO.framework; sourceTree = SDKROOT; };
+		113613F816E87CAA00F57D6C /* SDWebImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SDWebImage.framework; sourceTree = "<group>"; };
+		1136140216E887ED00F57D6C /* FlashRuntimeExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FlashRuntimeExtensions.h; path = ../FlashRuntimeExtensions.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		113613C516E860C200F57D6C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				113613E416E86B3300F57D6C /* ImageIO.framework in Frameworks */,
+				113613CC16E860C200F57D6C /* Foundation.framework in Frameworks */,
+				113613F916E87CAA00F57D6C /* SDWebImage.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		113613BD16E860C200F57D6C = {
+			isa = PBXGroup;
+			children = (
+				113613CD16E860C200F57D6C /* NativeLoader */,
+				113613CA16E860C200F57D6C /* Frameworks */,
+				113613C916E860C200F57D6C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		113613C916E860C200F57D6C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				113613C816E860C200F57D6C /* libNativeLoader.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		113613CA16E860C200F57D6C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				113613F816E87CAA00F57D6C /* SDWebImage.framework */,
+				113613E316E86B3200F57D6C /* ImageIO.framework */,
+				113613CB16E860C200F57D6C /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		113613CD16E860C200F57D6C /* NativeLoader */ = {
+			isa = PBXGroup;
+			children = (
+				1136140216E887ED00F57D6C /* FlashRuntimeExtensions.h */,
+				113613D016E860C200F57D6C /* NativeLoader.h */,
+				113613D216E860C200F57D6C /* NativeLoader.m */,
+				113613CE16E860C200F57D6C /* Supporting Files */,
+			);
+			path = NativeLoader;
+			sourceTree = "<group>";
+		};
+		113613CE16E860C200F57D6C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				113613CF16E860C200F57D6C /* NativeLoader-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		113613C716E860C200F57D6C /* NativeLoader */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 113613D616E860C200F57D6C /* Build configuration list for PBXNativeTarget "NativeLoader" */;
+			buildPhases = (
+				113613C416E860C200F57D6C /* Sources */,
+				113613C516E860C200F57D6C /* Frameworks */,
+				113613C616E860C200F57D6C /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NativeLoader;
+			productName = NativeLoader;
+			productReference = 113613C816E860C200F57D6C /* libNativeLoader.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		113613BF16E860C200F57D6C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = sewonist;
+			};
+			buildConfigurationList = 113613C216E860C200F57D6C /* Build configuration list for PBXProject "NativeLoader" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 113613BD16E860C200F57D6C;
+			productRefGroup = 113613C916E860C200F57D6C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				113613C716E860C200F57D6C /* NativeLoader */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		113613C416E860C200F57D6C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				113613D316E860C200F57D6C /* NativeLoader.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		113613D416E860C200F57D6C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		113613D516E860C200F57D6C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		113613D716E860C200F57D6C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/NativeLoader.dst;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../../../Flash/Library/SDWebImage\"",
+					"\"$(SRCROOT)\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NativeLoader/NativeLoader-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		113613D816E860C200F57D6C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/NativeLoader.dst;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../../../Flash/Library/SDWebImage\"",
+					"\"$(SRCROOT)\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NativeLoader/NativeLoader-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		113613C216E860C200F57D6C /* Build configuration list for PBXProject "NativeLoader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				113613D416E860C200F57D6C /* Debug */,
+				113613D516E860C200F57D6C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		113613D616E860C200F57D6C /* Build configuration list for PBXNativeTarget "NativeLoader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				113613D716E860C200F57D6C /* Debug */,
+				113613D816E860C200F57D6C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 113613BF16E860C200F57D6C /* Project object */;
+}
